@@ -129,9 +129,5 @@ def check_signal():
 
 if __name__ == "__main__":
     check_signal()
-    send_telegram(
-        "✅ ETH BB%B ALARM TEST\n\n"
-        "Telegram connection is working.\n"
-        "ETH 15m | BB Length 20 | Multiplier 3"
     )
 
